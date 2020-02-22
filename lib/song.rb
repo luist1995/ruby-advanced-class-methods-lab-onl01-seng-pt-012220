@@ -54,6 +54,6 @@ class Song
     song_name = split_file[1].split(".")[0]
     song = self.new_by_name(song_name)
     song.artist_name = artist 
-    
+    song
   end
 end
